@@ -29,7 +29,7 @@ int main() {
         int c=0;
         if(vis[i]==0)
         {
-          for(int j=i+1;j<word_count;j++)
+          for(int j=0;j<word_count;j++)
           {
               if(strcmp(p,word[j])==0)
               {
@@ -37,7 +37,7 @@ int main() {
                   c++;
               }
            }
-           if(c==0)
+           if(c==1)
               {
                 printf("%s|",word[i]);
               }
